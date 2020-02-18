@@ -78,6 +78,17 @@
               padding-left: 0;
             }
           }
+          .btn__scroll {
+            background-color: $colorBlue;
+            color: rgb(255, 255, 255);
+            &:hover {
+              background-color: darken($colorBlue, 10%);
+            }
+
+            svg .icon-logo {
+              fill: white;
+            }
+          }
         }
       }
 
@@ -90,17 +101,7 @@
 
 ///da ordinare
 
-.btn__scroll {
-  background-color: $colorBlue;
-  color: rgb(255, 255, 255);
-  &:hover {
-    background-color: darken($colorBlue, 10%);
-  }
 
-  svg .icon-logo {
-    fill: white;
-  }
-}
 
 
 .parent__drop-down {

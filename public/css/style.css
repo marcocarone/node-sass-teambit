@@ -79,19 +79,18 @@ body {
   padding-right: 5px;
   padding-left: 0;
 }
-.top-header .top-header__wrapper .top-header__right i.lni-menu {
-  display: none;
-}
-
-.btn__scroll {
+.top-header .top-header__wrapper .top-header__right ul li .btn__scroll {
   background-color: #30488f;
   color: white;
 }
-.btn__scroll:hover {
+.top-header .top-header__wrapper .top-header__right ul li .btn__scroll:hover {
   background-color: #233569;
 }
-.btn__scroll svg .icon-logo {
+.top-header .top-header__wrapper .top-header__right ul li .btn__scroll svg .icon-logo {
   fill: white;
+}
+.top-header .top-header__wrapper .top-header__right i.lni-menu {
+  display: none;
 }
 
 .parent__drop-down {
