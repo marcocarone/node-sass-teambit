@@ -1,0 +1,155 @@
+.jumbotron {
+  padding: 0 25px;
+
+  .jumbotron__wrapper {
+    @include wrapper;
+    margin: 100px auto;
+
+    .jumbotron__left {
+      @include flexColumn;
+      flex-basis: 48%;
+
+      h1 {
+        font-size: 2.9em;
+        color: rgb(88, 64, 44);
+        font-weight: 500;
+      }
+
+      p {
+        color: rgb(88, 64, 44);
+        font-size: 1.3em;
+        padding-top: 30px;
+      }
+
+      .btn {
+        padding: 40px 0 20px;
+
+        a.btn__blue {
+          font-size: 0.8em;
+          background-color: $colorBlue;
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+          border-radius: 5px;
+          padding: 8px 17px;
+          transition: all 0.6s ease 0s;
+
+          &:hover {
+            background-color: darken($colorBlue, 10%);
+            color: rgb(255, 255, 255);
+          }
+
+          img {
+            height: 18px;
+            vertical-align: middle;
+            padding-right: 5px;
+            padding-left: 0;
+          }
+        }
+
+        span {
+          font-size: 0.8em;
+          color: rgb(189, 181, 175);
+          padding: 0 15px;
+        }
+      }
+
+      a {
+        color: rgb(88, 64, 44);
+        font-size: 0.8em;
+        line-height: 30px;
+        text-decoration: none;
+
+        i {
+          padding-left: 5px;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .jumbotron__right {
+      @include flexColumn;
+      flex-basis: 52%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 480px) {
+  .jumbotron {
+    .jumbotron__wrapper {
+      @include flexColumnCenter;
+
+      .jumbotron__left {
+        max-width: 650px;
+
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        a {
+          text-align: center;
+        }
+
+        .btn {
+          text-align: center;
+        }
+      }
+
+      .jumbotron__right img {
+        max-width: 570px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    .jumbotron__wrapper {
+      @include flexColumnCenter;
+
+      .jumbotron__left {
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        a {
+          text-align: center;
+        }
+
+        .btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          a.btn__blue {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            padding: 0;
+          }
+
+          span {
+            padding: 10px 15px;
+          }
+        }
+      }
+
+      .jumbotron__right img {
+        max-width: 570px;
+      }
+    }
+  }
+}
