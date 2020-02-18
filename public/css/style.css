@@ -276,7 +276,7 @@ body {
 }
 
 .description {
-  padding: 90px 25px;
+  padding: 20px 25px;
   background-color: #ffe7d2;
 }
 
@@ -284,8 +284,12 @@ body {
   max-width: 1150px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 70px auto;
   border-bottom: 1px solid #bdb5af;
+}
+
+.description .description__wrapper__noborder {
+  border-bottom: none;
 }
 
 .description .description__wrapper .wrapper__h2 {
