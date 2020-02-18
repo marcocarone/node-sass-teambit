@@ -10,13 +10,6 @@ body {
   min-width: 320px;
 }
 
-.btn__scroll {
-  background-color: #30488f;
-}
-.btn__scroll svg .icon-logo {
-  fill: white;
-}
-
 .fade-in-top {
   -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -126,6 +119,17 @@ body {
   display: none;
 }
 
+.btn__scroll {
+  background-color: #30488f;
+  color: white;
+}
+.btn__scroll:hover {
+  background-color: #233569;
+}
+.btn__scroll svg .icon-logo {
+  fill: white;
+}
+
 .parent__drop-down {
   position: relative;
 }
@@ -135,8 +139,8 @@ body {
   opacity: 0;
   flex-direction: column;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: -20px;
   margin: 30px 0 0;
   transition: opacity linear 0.15s;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
