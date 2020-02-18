@@ -61,9 +61,12 @@
             &:hover {
               background-color: $colorBlue;
               color: rgb(255, 255, 255);
+              svg .icon-logo {
+                fill: white;
+              }
             }
 
-            img {
+            svg {
               height: 18px;
               vertical-align: middle;
               padding-right: 5px;

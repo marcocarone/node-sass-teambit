@@ -67,7 +67,10 @@ body {
   background-color: #30488f;
   color: white;
 }
-.top-header .top-header__wrapper .top-header__right ul li .btn__menu img {
+.top-header .top-header__wrapper .top-header__right ul li .btn__menu:hover svg .icon-logo {
+  fill: white;
+}
+.top-header .top-header__wrapper .top-header__right ul li .btn__menu svg {
   height: 18px;
   vertical-align: middle;
   padding-right: 5px;
