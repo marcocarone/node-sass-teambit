@@ -30,12 +30,15 @@
         position: absolute;
         top: -23px;
         left: -1px;
-        //     background: url(https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg) center center no-repeat;
-        
-        // }
+
         background: url("../../../public/img/quote.svg") center center no-repeat;
         z-index: 2;
         content: " ";
+
+        //     background: url(https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg) center center no-repeat;
+
+        // }
+
       }
 
       .reviews__box__img {

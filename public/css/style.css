@@ -683,3 +683,32 @@ body {
   }
 }
 
+.footer__wrapper {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 90px 0 50px;
+}
+
+.footer__wrapper .box__logo {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 35%;
+}
+
+.footer__wrapper .box__logo img {
+  width: 50px;
+}
+
+.footer__wrapper .box__logo p {
+  padding: 0 30px;
+}
+
+.footer__wrapper .box__link__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 65%;
+}
+
