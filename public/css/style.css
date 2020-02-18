@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap);* {
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -272,6 +272,77 @@ body {
 
   .jumbotron .jumbotron__wrapper .jumbotron__right img {
     max-width: 570px;
+  }
+}
+
+.description {
+  padding: 90px 25px;
+  background-color: #ffe7d2;
+}
+
+.description .description__wrapper {
+  max-width: 1150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-bottom: 1px solid #bdb5af;
+}
+
+.description .description__wrapper .wrapper__h2 {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.description .description__wrapper .wrapper__h2 h2 {
+  color: #58402c;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.description .description__wrapper .wrapper__icon {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.description .description__wrapper .wrapper__icon .box__icon {
+  flex-basis: 30%;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description .description__wrapper .wrapper__icon .box__icon img {
+  height: 100px;
+}
+
+.description .description__wrapper .wrapper__icon .box__icon p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.description .description__wrapper .img__before {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.description .description__wrapper .img__before img {
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .description .description__wrapper .wrapper__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 
