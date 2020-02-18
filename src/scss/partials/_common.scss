@@ -52,4 +52,7 @@ margin: 100px auto;
     vertical-align: middle;
     color: $colorBlue;
   }
+  &:hover {
+    color: darken($colorBlue, 10%);
+  }
 }

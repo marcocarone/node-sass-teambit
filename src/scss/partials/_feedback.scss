@@ -34,10 +34,6 @@
 
       a {
         @include learnMore;
-
-        &:hover {
-          color: darken($colorBlue, 10%);
-        }
       }
 
       .feedback__img__right {
@@ -74,10 +70,6 @@
 
       a {
         @include learnMore;
-
-        &:hover {
-          color: darken($colorBlue, 10%);
-        }
       }
 
       .boxtwo__img__left {
@@ -105,8 +97,7 @@
 @media screen and (max-width: 1024px) {
   .feedback {
     .feedback__wrapper {
-      display: flex;
-      flex-direction: column;
+      @include flexColumn;
 
       .feedback__wrapper__right {
         flex-basis: 100%;
@@ -129,6 +120,44 @@
         }
 
         .feedback__img__right {
+          text-align: center;
+
+          img {
+            width: 40%;
+          }
+        }
+      }
+    }
+
+    .feedback__wrapper__two {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .boxtwo__wrapper__left {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        h2 {
+          text-align: center;
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        a {
+          text-align: center;
+
+          &:hover {
+            color: darken($colorBlue, 10%);
+          }
+        }
+
+        .boxtwo__img__left {
           text-align: center;
 
           img {
