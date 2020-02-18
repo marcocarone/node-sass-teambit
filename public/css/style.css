@@ -626,3 +626,98 @@ footer .footer__wrapper .box__link__wrapper .box__link ul a {
 footer .footer__wrapper .box__link__wrapper .box__link ul a:hover {
   color: #30488f;
 }
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  footer .footer__wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 90px 0 50px;
+  }
+  footer .footer__wrapper .box__logo {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+  }
+  footer .footer__wrapper .box__logo img {
+    width: 50px;
+  }
+  footer .footer__wrapper .box__link__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding-top: 30px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link {
+    flex-basis: calc(100% / 2);
+    margin-bottom: 30px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link h3 {
+    color: #58402c;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul {
+    list-style: none;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #58402c;
+    font-size: 0.8em;
+    transition: all 0.6s ease 0s;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul a:hover {
+    color: #30488f;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .footer__wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 90px 0 50px;
+  }
+  footer .footer__wrapper .box__logo {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+  }
+  footer .footer__wrapper .box__logo img {
+    width: 50px;
+  }
+  footer .footer__wrapper .box__link__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding-top: 30px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link {
+    flex-basis: calc(100% / 1);
+    margin-bottom: 30px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link h3 {
+    color: #58402c;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul {
+    list-style: none;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #58402c;
+    font-size: 0.8em;
+    transition: all 0.6s ease 0s;
+  }
+  footer .footer__wrapper .box__link__wrapper .box__link ul a:hover {
+    color: #30488f;
+  }
+}
