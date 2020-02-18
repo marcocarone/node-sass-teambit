@@ -27,3 +27,29 @@ justify-content: center;
 align-items: center;
 margin: 100px auto;
 }
+
+@mixin h2 {
+  color: $colorBrown;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+@mixin p {
+  color: $colorBrown;
+  font-size: 1.25em;
+}
+
+@mixin learnMore {
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 40px 0;
+  line-height: 30px;
+  color: $colorBlue;
+  transition: all 0.6s ease 0s;
+
+  i {
+    margin-left: 5px;
+    vertical-align: middle;
+    color: $colorBlue;
+  }
+}
