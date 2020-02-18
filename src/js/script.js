@@ -10,13 +10,12 @@ $(window).scroll(function() {
     $(".top-header").addClass("fade-in-top");
     $(".top-header__wrapper").css("border-bottom", "none");
     $(".btn__menu").addClass("btn__scroll");
-    // $(".btn__menu").css("color", "rgb(255, 255, 255)");
   } else {
     $(".top-header").removeClass("fix");
     $(".top-header").removeClass("fade-in-top");
     $(".top-header__wrapper").css("border-bottom", "solid 1px rgb(144, 144, 144)");
     $(".btn__menu").removeClass("btn__scroll");
-    // $(".btn__menu").css("color", "rgb(48, 72, 143)");
+
 
   }
 });
